@@ -1,0 +1,16 @@
+nums=[]
+n = [int(x) for x in input().split()]
+for i in range(n[0],n[1]):
+    nums.append(i)
+
+
+for a in nums:
+    order=4
+    sum1=0
+    temp=a
+    while temp>0:
+        digit = temp % 10
+        sum1 += digit ** order
+        temp //= 10
+    if a==sum1:
+        print(a,end=' ')
