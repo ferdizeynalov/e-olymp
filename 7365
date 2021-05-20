@@ -1,0 +1,13 @@
+import math
+n=int(input())
+l=list(map(float,input().split()))
+
+tort=0    
+for i in l:
+    if 0<i<30:
+        
+        tort+=1
+sud=(0.2*tort)
+paket=0.9
+f=math.ceil(sud/paket)
+print(f,tort)
