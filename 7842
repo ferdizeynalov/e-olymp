@@ -1,0 +1,10 @@
+n=int(input())
+x=[str(x ) for x in input().split()]
+count=0
+y=[]
+for i in x:
+    if count % 2==0:
+        y.append(i)
+    count+=1
+for a in y:
+    print(a,end=' ')
