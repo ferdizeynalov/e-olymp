@@ -1,0 +1,6 @@
+import math
+n=int(input())
+
+a=10 ** n-10 ** (n-1)
+m=math.ceil(a/2)
+print(m)
