@@ -1,0 +1,12 @@
+n=int(input())
+x=list(map(int,input().split()))
+l=[]
+for i in x:
+    if i==max(x):
+        
+        l.append(min(x))
+    elif i==min(x):
+        l.append(max(x))
+    else:
+        l.append(i)
+print(*l)
