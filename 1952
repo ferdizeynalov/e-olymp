@@ -1,0 +1,10 @@
+x=list(map(int,input().split()))
+del(x[0])
+max1=max(x)
+min1=min(x)
+count=0
+for i in x:
+    if i==max1:
+        x[count]=min1
+    count+=1
+print(*x)
