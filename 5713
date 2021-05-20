@@ -1,0 +1,12 @@
+b=[]
+n=int(input())
+l=[int(l) for l in input().split()]
+
+if len(l)==n:
+        for i in l:
+            if i<0:
+                b.append(i)
+            else:
+                b.append(i)
+        
+        print(max(b)-min(b))
