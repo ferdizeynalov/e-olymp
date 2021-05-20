@@ -1,0 +1,8 @@
+n = int(input())
+lis=[int(d) for d in str(n)]
+if len(str(n))<=5:
+    
+    if lis[0]<lis[1]<lis[2]<lis[3]<lis[4]:
+        print('YES')
+    else:
+        print('NO')
