@@ -1,0 +1,10 @@
+n=int(input())
+mylist=list(map(int,input().split()))
+for i in mylist:
+    while i==max(mylist):
+        mylist.remove(i)
+for j in mylist:
+    while j==min(mylist):
+        mylist.remove(j)
+mysum=sum(mylist)        
+print(mysum)
