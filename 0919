@@ -1,0 +1,12 @@
+n=int(input())
+a=list(map(float,input().split()))
+indx=1
+cem=0
+say=0
+for i in a:
+    
+    if indx%3==0 and i>0:
+        say+=1
+        cem+=i
+    indx+=1
+print(say,format(cem,'.2f'))
