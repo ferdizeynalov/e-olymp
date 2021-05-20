@@ -1,0 +1,10 @@
+n=int(input())
+x=0
+if n>0:    
+    while(n>0):
+        dig=n%10       
+        n=n//10
+        x=x+1       
+    print(int(x))      
+elif n==0:
+    print(1)
