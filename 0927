@@ -1,0 +1,9 @@
+c=[]
+n=int(input())
+for i in range(n):
+    
+    a,b=[float(a) for a in input().split()]
+    
+    if b<50:
+        c.append(a)
+print(int(sum(c)))
