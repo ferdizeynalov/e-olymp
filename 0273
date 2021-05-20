@@ -1,0 +1,4 @@
+x,n,m=[int(x) for x in input().split()]
+
+a=(x**n)%m
+print(a)
