@@ -1,0 +1,19 @@
+n=int(input())
+x=list(map(int,input().split()))
+c=0
+a=0
+l=[]
+for i in range(0,n) :
+    if x[i]>0 :
+        c+=1
+        d=c
+        l.append(d)
+    
+    else :
+        c=0
+        a+=1
+l.sort()
+if a==n :
+    print(0)
+else :
+    print(l[-1])
