@@ -1,0 +1,5 @@
+a,r=map(float,input().split())
+s=(3.14159265359*(r**2))
+d=s-a
+r1=(d/3.14159265359)**0.5
+print(format(r1,'.2f'))
