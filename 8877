@@ -1,0 +1,8 @@
+n=int(input())
+
+m=n**0.5
+
+if m.is_integer()==True:
+    print(int(m))
+else:
+    print('No')
