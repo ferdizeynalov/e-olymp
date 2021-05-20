@@ -1,0 +1,6 @@
+n=int(input())
+a=list(map(float,input().split()))
+
+a.sort()
+d=a[0]*2
+print(format(d,".2f"))
