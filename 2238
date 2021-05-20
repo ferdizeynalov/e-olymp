@@ -1,0 +1,8 @@
+n=int(input())
+x=list(map(float,input().split()))
+avrg=sum(x)/len(x)
+b=[]
+for num in x:
+    if num>avrg and num>=avrg:
+        b.append(num)
+print(len(b))
