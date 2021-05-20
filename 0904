@@ -7,4 +7,5 @@ if n==len(x):
             print(i,end=(' '))
         else:
             print(i,end=' ')
+            
 print('')
