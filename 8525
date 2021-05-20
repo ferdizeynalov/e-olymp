@@ -1,0 +1,15 @@
+n=int(input())
+c=[]
+
+for i in range(0,n):
+    x=[int(x) for x in input().split()]
+    c.append(x)
+j=[]
+for a in c:
+    for b in a:
+        
+        if b<0 and b%2==0:
+            j.append(b)
+            say=len(j)
+            cem=sum(j)
+print(say,cem)
