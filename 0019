@@ -1,0 +1,19 @@
+n=str(input())
+list=[]
+for b in n :
+    b=int(b)
+    list.append(b)
+c=0
+a=len(list)
+x=int(a/2)
+if a%2 == 0 :
+    for i in range (0,x):
+        if list[i]==list[-(i+1)] :
+            c+=1
+    print(c)        
+else :
+    list.pop(x)
+    for i in range (0,x):
+        if list[i]==list[-(i+1)] :
+            c+=1
+    print(c+1)
