@@ -1,0 +1,6 @@
+n=int(input())
+x=[int(x) for x in input().split()]
+x.insert(0, x[-1])
+x.pop(-1)
+for i in x:
+    print(i,end=' ')
