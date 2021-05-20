@@ -1,0 +1,4 @@
+x, y, z, w = [float(x) for x in input().split()] 
+print(round(x+y,4))
+print(round(x+y+z,4))
+print(round(x+y+z+w,4))
