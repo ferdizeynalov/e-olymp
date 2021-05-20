@@ -1,0 +1,9 @@
+size = int(input())
+arr = [int(x) for x in input().split()]    
+def inversePermutation(arr, size):    
+    for i in range(0, size):   
+        for j in range(0, size):   
+            if (arr[j] == i + 1):    
+                print(j + 1, end = " ")  
+                break  
+inversePermutation(arr, size)
