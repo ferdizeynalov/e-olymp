@@ -1,0 +1,4 @@
+x, y = [float(x) for x in input().split()]
+
+z=2*(x**2)-4*x*y+3*(y**2)+((x+y)/7)
+print(round(z,3))
