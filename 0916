@@ -1,0 +1,56 @@
+a, b, c, d = map(int, input().split())
+count = 0
+list = []
+if a>b and c>d:
+    
+    a,b=b,a
+    c,d=d,c
+    if 1<= a <= 10 and 1<= b <= 10 and 1<= c <= 10 and 1<= d <= 10:
+        for eded1 in range(a, b+1):
+            for eded2 in range(c, d+1):
+                if (eded1 * eded2) in list:
+                    continue
+                else:
+                    cem = eded1 * eded2
+                    list.append(cem)
+                    count += 1
+    print(count)
+elif a>b and c<d:
+    a,b=b,a
+    
+    if 1<= a <= 10 and 1<= b <= 10 and 1<= c <= 10 and 1<= d <= 10:
+        for eded1 in range(a, b+1):
+            for eded2 in range(c, d+1):
+                if (eded1 * eded2) in list:
+                    continue
+                else:
+                    cem = eded1 * eded2
+                    list.append(cem)
+                    count += 1
+    print(count)
+elif a<b and c>d:
+    
+    c,d=d,c
+    if 1<= a <= 10 and 1<= b <= 10 and 1<= c <= 10 and 1<= d <= 10:
+        for eded1 in range(a, b+1):
+            for eded2 in range(c, d+1):
+                if (eded1 * eded2) in list:
+                    continue
+                else:
+                    cem = eded1 * eded2
+                    list.append(cem)
+                    count += 1
+    print(count)
+    
+else:
+    
+    if 1<= a <= 10 and 1<= b <= 10 and 1<= c <= 10 and 1<= d <= 10:
+        for eded1 in range(a, b+1):
+            for eded2 in range(c, d+1):
+                if (eded1 * eded2) in list:
+                    continue
+                else:
+                    cem = eded1 * eded2
+                    list.append(cem)
+                    count += 1
+    print(count)
