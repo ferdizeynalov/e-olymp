@@ -1,0 +1,10 @@
+n,m=[int(x) for x in input().split()]
+square=1
+for i in range(n,m+1):
+    square=i*i
+    print(square,end=' ')
+print('')
+cube=1
+for i in reversed(range(n,m+1)):
+    cube=i*i*i
+    print(cube,end=' ')
