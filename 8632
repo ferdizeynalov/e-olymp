@@ -1,0 +1,6 @@
+n=int(input())
+c=[]
+for i in str(n):
+    if int(i)%2==1:
+        c.append(i)
+print(len(c))
