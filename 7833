@@ -1,0 +1,12 @@
+n=int(input())
+x=list(map(int,input().split()))
+orta=sum(x)/len(x)
+say=0
+cem=0
+if n==len(x):
+    
+    for i in x:
+        if i>orta:
+            say+=1
+            cem=cem+i
+    print(cem,say)
